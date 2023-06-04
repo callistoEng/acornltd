@@ -85,7 +85,7 @@ const Header = () => {
               <Link href="/">Services</Link>
             </li>
             <li className="md:mr-6 mr-3.5 px-4 md:rounded-3xl rounded-xl md:py-2 py-1 border-solid border-2 hover:bg-acorn-theme-blue hover:text-white hover:shadow-md hover:transition-all hover:duration-300">
-              <Link href="/">CCTV</Link>
+              <Link href="/products/integrated-security">CCTV</Link>
             </li>
             <li className="px-4 md:rounded-3xl rounded-xl md:py-2 py-1 border-solid border-2 hover:bg-acorn-theme-blue hover:text-white hover:shadow-md hover:transition-all hover:duration-300">
               <Link href="/">Products</Link>

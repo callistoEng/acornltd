@@ -25,13 +25,13 @@ const Home = () => {
   return (
     <>
       <section>
-        <div className="mb-5 md:mb-8 mt-[1rem] md:h-[85vh] sm:h-[60vh] h-[40vh] relative px-0">
+        <div className="mb-3 md:mb-8 mt-[1rem] md:h-[80vh] sm:h-[65vh] h-[40vh] relative px-0">
           <div className="w-full flex justify-center content-center items-center h-full">
             <div
               className="flex flex-col w-11/12 xs-l:w-4/5 sm:w-2/3 bg-opacity-50
           sm:p-10 p-5 justify-center content-center items-center rounded-lg bg-acorn-theme-blue mx-auto shadow-lg"
             >
-              <h2 className="font-bold md:text-3xl md:mb-10 sm:text-xl text-lg text-white opacity-100 text-left">
+              <h2 className="font-bold m- md:text-3xl md:mb-10 sm:text-xl text-lg text-white opacity-100 text-left">
                 Networking, Cabling and All IT Solutions
               </h2>
               <Typewriter
