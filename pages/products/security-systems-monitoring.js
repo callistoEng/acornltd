@@ -1,5 +1,5 @@
 import Image from "next/image";
-import conf from "../../public/images/monit1.jpg";
+import conf from "../../public/images/monit.jpg";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import cabling3 from "../../public/images/monit.jpg";
