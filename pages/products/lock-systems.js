@@ -1,8 +1,8 @@
 import Image from "next/image";
-import conf from "../../public/images/hotel3.jpg";
+import conf from "../../public/images/hotel1.jpg";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import cabling3 from "../../public/images/hotel2.jpg";
+import cabling3 from "../../public/images/hotel1.jpg";
 
 const LockSystem = () => {
   const handleEmail =()=>{

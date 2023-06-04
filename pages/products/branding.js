@@ -1,6 +1,6 @@
 
 import Image from "next/image";
-import conf from "../../public/images/brand2.jpg";
+import conf from "../../public/images/brand.jpg";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
 import cabling3 from "../../public/images/brand1.jpg";

@@ -2,7 +2,7 @@ import Image from "next/image";
 import conf from "../../public/images/elec1.jpg";
 import { BsTelephoneInbound } from "react-icons/bs";
 import { AiOutlineMail } from "react-icons/ai";
-import cabling3 from "../../public/images/elec2.jpg";
+import cabling3 from "../../public/images/elec3.jpg";
 
 const Electricalengineering = () => {
   const handleEmail =()=>{
