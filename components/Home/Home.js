@@ -3,7 +3,7 @@ import lock from "../../public/images/hotel.jpg";
 import wiring from "../../public/images/elec3.jpg";
 import security from "../../public/images/security.png";
 import piped from "../../public/images/piped.png";
-import abt from "../../public/abt.jpg";
+import abt from "../../public/images/abt.jpg";
 import cable2 from "../../public/images/cable2.jpg";
 import cable1 from "../../public/images/cable1.jpg";
 import networkserver from "../../public/images/vconf.png";
