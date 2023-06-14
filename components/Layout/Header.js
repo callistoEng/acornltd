@@ -14,19 +14,19 @@ const Header = () => {
   return (
     <section className="w-full relative">
       <div className="bg-acorn-theme-gold md:px-28 sm:px-10 px-4">
-        <div className="py-3 flex justify-between text-white"> 
+        <div className="py-3 flex justify-between text-white">
           <div className="sm:block hidden">
             <ul className="flex">
               <li className="mr-2 text-lg">
-                <Link href="/">
+              <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://facebook.com/ACORNETWORKS"
+                >
                   <FiFacebook />
-                </Link>
+                </a>
               </li>
-              <li className="mr-2 text-xl">
-                <Link href="/">
-                  <AiOutlineTwitter />
-                </Link>
-              </li>
+              
               <li className="mr-2 text-xl">
                 <Link href="/">
                   <AiOutlineInstagram />
@@ -36,15 +36,6 @@ const Header = () => {
           </div>
           <div>
             <ul className="flex sm:text-base text-sm">
-              <li className="mr-3 flex">
-                <button
-                  type="button"
-                  className="flex content-center items-center"
-                >
-                  <BsTelephoneInbound className="mr-1.5 xs:block hidden" />
-                  +254721549507
-                </button>
-              </li>
               <li className="xs-auth:mr-3 mr-1.5 xs-auth:flex hidden">
                 <button
                   type="button"
@@ -61,7 +52,7 @@ const Header = () => {
                   className="flex content-center items-center"
                 >
                   <AiOutlineMail className="mr-1.5" />
-                  info.acornnetworks@gmail.com
+                  acornnetwork1@gmail.com
                 </button>
               </li>
             </ul>

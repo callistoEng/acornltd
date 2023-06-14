@@ -1,5 +1,4 @@
-
-import { FiFacebook,FiTwitter } from "react-icons/fi";
+import { FiFacebook, FiTwitter } from "react-icons/fi";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -9,13 +8,23 @@ const Footer = () => {
           <div>
             <h1 className="font-bold text-xl">Acorn Networks Ltd</h1>
             <ul className="text-lg sm:block flex">
-              <li className="mb-0 mt-2 text-twitter-blue p-2">
-                <a href="https://twitter.com">
+              <li className="mb-0 mt-2 text-twitter-blue">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://twitter.com"
+                >
                   <FiTwitter />
                 </a>
               </li>
-              <li className="mb-0.5 mt-2 text-fb-color p-2">
-                <FiFacebook className="" />
+              <li className="mb-0.5 mt-2 text-fb-color">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://facebook.com/ACORNETWORKS"
+                >
+                  <FiFacebook className="" />
+                </a>
               </li>
             </ul>
           </div>
