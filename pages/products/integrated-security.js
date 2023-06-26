@@ -7,7 +7,7 @@ import cabling3 from "../../public/images/cam1.jpg";
 const IntegratedSecurity = () => {
   const handleEmail =()=>{
     if(typeof window !== "undefined"){
-      window.location.href = "mailto:info.acornnetworks@gmail.com"
+      window.location.href = "mailto:info.acornnetworks1@gmail.com"
     }
   }
   return (

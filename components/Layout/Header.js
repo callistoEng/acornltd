@@ -52,7 +52,7 @@ const Header = () => {
                   className="flex content-center items-center"
                 >
                   <AiOutlineMail className="mr-1.5" />
-                  acornnetwork1@gmail.com
+                  acornnetworks1@gmail.com
                 </button>
               </li>
             </ul>

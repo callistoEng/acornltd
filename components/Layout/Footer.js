@@ -1,4 +1,5 @@
 import { FiFacebook, FiTwitter } from "react-icons/fi";
+import { AiOutlineMail } from "react-icons/ai";
 import Link from "next/link";
 const Footer = () => {
   return (
@@ -7,7 +8,7 @@ const Footer = () => {
         <div>
           <div>
             <h1 className="font-bold text-xl">Acorn Networks Ltd</h1>
-            <ul className="text-lg sm:block flex">
+            <ul className="text-lg sm:block flex bg-slate-300 w-8 px-2 py-1">
               <li className="mb-0 mt-2 text-twitter-blue">
                 <a
                   target="_blank"
@@ -24,6 +25,15 @@ const Footer = () => {
                   href="https://facebook.com/ACORNETWORKS"
                 >
                   <FiFacebook className="" />
+                </a>
+              </li>
+              <li className="mb-0.5 mt-2 text-fb-color">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="mailto:info.acornnetwork@gmail.com?subject=Inquiry"
+                >
+                  <AiOutlineMail className="" />
                 </a>
               </li>
             </ul>

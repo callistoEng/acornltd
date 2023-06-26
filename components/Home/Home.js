@@ -19,7 +19,7 @@ import Image from "next/image";
 const Home = () => {
   const handleEmail = () => {
     if (typeof window !== "undefined") {
-      window.location.href = "mailto:info.acornnetworks@gmail.com";
+      window.location.href = "mailto:info.acornnetwork@gmail.com";
     }
   };
   return (
