@@ -7,7 +7,7 @@ import cabling3 from "../../public/images/cable3.jpg";
 const NetworkCabling = () => {
   const handleEmail =()=>{
     if(typeof window !== "undefined"){
-      window.location.href = "mailto:info.acornnetworks@gmail.com"
+      window.location.href = "mailto:info.acornnetwork@gmail.com"
     }
   }
   return (

@@ -7,7 +7,7 @@ import cabling3 from "../../public/images/network-server.jpg";
 const VideoConfrencing = () => {
   const handleEmail = () => {
     if (typeof window !== "undefined") {
-      window.location.href = "mailto:info.acornnetworks@gmail.com";
+      window.location.href = "mailto:info.acornnetwork@gmail.com";
     }
   };
   return (
