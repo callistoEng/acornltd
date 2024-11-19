@@ -18,7 +18,7 @@ const Header = () => {
           <div className="sm:block hidden">
             <ul className="flex">
               <li className="mr-2 text-lg">
-              <a
+                <a
                   target="_blank"
                   rel="noopener noreferrer"
                   href="https://facebook.com/ACORNETWORKS"
@@ -26,7 +26,7 @@ const Header = () => {
                   <FiFacebook />
                 </a>
               </li>
-              
+
               <li className="mr-2 text-xl">
                 <Link href="/">
                   <AiOutlineInstagram />
@@ -61,10 +61,11 @@ const Header = () => {
       </div>
       <div className="xl:px-28 px-5  py-4 flex justify-between">
         <div className="flex items-center content-center">
-          <Link href="/">
-            <a className="md:text-4xl text-2xl  font-bold text-acorn-theme-blue">
-              Acorn Networks
-            </a>
+          <Link
+            className="md:text-4xl text-2xl  font-bold text-acorn-theme-blue"
+            href="/"
+          >
+            Acorn Networks
           </Link>
         </div>
         <div className="sm:flex hidden items-center content-center">
@@ -107,10 +108,9 @@ const Header = () => {
             }
           >
             <div>
-              <Link href="/">
-                <a className="font-bold text-xl text-acorn-theme-gold">
+              <Link  className="font-bold text-xl text-acorn-theme-gold" href="/">
                   Acorn Networks Limited
-                </a>
+               
               </Link>
             </div>
             <div className="">

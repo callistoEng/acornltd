@@ -169,10 +169,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Network Cabling
               </p>
-              <Link href="/products/network-cabling">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/network-cabling"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -188,10 +189,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 LAN Structured Cabling
               </p>
-              <Link href="/products/lan-structured-cabling">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/lan-structured-cabling"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -207,10 +209,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Video Confrencing
               </p>
-              <Link href="/products/video-confrencing">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/video-confrencing"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -226,10 +229,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Piped Music
               </p>
-              <Link href="/">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -245,10 +249,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Electrical Engineering
               </p>
-              <Link href="/products/electrical-engineering">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/electrical-engineering"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -264,10 +269,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Security System Monitoring
               </p>
-              <Link href="/products/security-systems-monitoring">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/security-systems-monitoring"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -283,10 +289,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Hotel Lock Systems
               </p>
-              <Link href="/products/lock-systems">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/lock-systems"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -302,10 +309,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Integrated Security (CCTV, Alarm & Access Control)
               </p>
-              <Link href="/products/integrated-security">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/integrated-security"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -322,10 +330,11 @@ const Home = () => {
               <p className="text-lg text-white font-semibold mb-1.5">
                 Branding
               </p>
-              <Link href="/products/branding">
-                <a className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm">
-                  Read More
-                </a>
+              <Link
+                className="bg-acorn-theme-gold px-4 py-2 shadow-md rounded-md text-white text-sm"
+                href="/products/branding"
+              >
+                Read More
               </Link>
             </div>
           </div>
@@ -352,7 +361,7 @@ const Home = () => {
               Communications in Kenya.
             </p>
             <button
-            onClick={handleEmail}
+              onClick={handleEmail}
               type="button"
               className="bg-acorn-theme-gold px-3 py-3 text-lg shadow-lg rounded-md text-white mt-2.5"
             >

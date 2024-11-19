@@ -9,32 +9,31 @@ const Footer = () => {
           <div>
             <h1 className="font-bold text-xl">Acorn Networks Ltd</h1>
             <ul className="text-lg sm:block flex bg-slate-300 w-8 px-2 py-1">
-              <li className="mb-0 mt-2 text-twitter-blue">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://twitter.com"
-                >
-                  <FiTwitter />
-                </a>
+              <li
+                className="mb-0 mt-2 text-twitter-blue"
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://twitter.com"
+              >
+                <FiTwitter />
               </li>
-              <li className="mb-0.5 mt-2 text-fb-color">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://facebook.com/ACORNETWORKS"
-                >
-                  <FiFacebook className="" />
-                </a>
+              <li
+                target="_blank"
+                rel="noopener noreferrer"
+                href="https://facebook.com/ACORNETWORKS"
+                className="mb-0.5 mt-2 text-fb-color"
+              >
+                <FiFacebook className="" />
               </li>
-              <li className="mb-0.5 mt-2 text-fb-color">
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="mailto:info.acornnetwork@gmail.com?subject=Inquiry"
-                >
+              <li
+                target="_blank"
+                rel="noopener noreferrer"
+                href="mailto:info.acornnetwork@gmail.com?subject=Inquiry"
+                className="mb-0.5 mt-2 text-fb-color"
+              >
+                
                   <AiOutlineMail className="" />
-                </a>
+               
               </li>
             </ul>
           </div>
@@ -57,47 +56,47 @@ const Footer = () => {
           <ul className="list-disc list-inside">
             <li className="">
               <Link href="/">
-                <a>Integrated Security(CCTV, Alarm and Access Control)</a>
+                Integrated Security(CCTV, Alarm and Access Control)
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Video Confrencing</a>
+               Video Confrencing
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>LAN Structured Cabling</a>
+               LAN Structured Cabling
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Networking</a>
+               Networking
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>IP Telephone</a>
+                IP Telephone
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Piped Music</a>
+                Piped Music
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Electrical Engineering</a>
+                Electrical Engineering
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Security System Monitoring</a>
+                Security System Monitoring
               </Link>
             </li>
             <li>
               <Link href="/">
-                <a>Hotel Locks Sytem</a>
+                Hotel Locks Sytem
               </Link>
             </li>
           </ul>
