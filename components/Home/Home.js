@@ -5,6 +5,7 @@ import security from "../../public/images/security.png";
 import piped from "../../public/images/piped.png";
 import abt from "../../public/images/abt.jpg";
 import cable2 from "../../public/images/cable2.jpg";
+import solar from "../../public/images/solar.jpg";
 import cable1 from "../../public/images/cable1.jpg";
 import networkserver from "../../public/images/vconf.png";
 import concept from "../../public/images/brand.jpg";
@@ -32,13 +33,16 @@ const Home = () => {
           sm:p-10 p-5 justify-center content-center items-center rounded-lg bg-acorn-theme-blue mx-auto shadow-lg"
             >
               <h2 className="font-bold m- md:text-3xl md:mb-10 sm:text-xl text-lg text-white opacity-100 text-left">
-                Networking, Cabling and All IT Solutions
+                Solar, Networking, Cabling and All IT Solutions
               </h2>
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
                     .typeString("Welcome the Future with Acorn Networks")
                     .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Homes with Solar Sell More than Homes Without")
+                    .pauseFor(900)
                     .deleteAll()
                     .typeString("We Do the Best for All Your IT Environment")
                     .pauseFor(900)
@@ -69,7 +73,7 @@ const Home = () => {
             <Image
               alt="acorn networks banner"
               src={logo}
-              layout="fill"
+              fill={true}
               quality={100}
               priority={true}
               className="h-full w-full object-cover"
@@ -83,7 +87,7 @@ const Home = () => {
             <Image
               src={abt}
               alt="who are we"
-              layout="fill"
+              fill={true}
               quality={100}
               priority={true}
               className="h-full w-full object-cover"
@@ -161,7 +165,7 @@ const Home = () => {
             <Image
               alt=""
               src={cable1}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -181,7 +185,7 @@ const Home = () => {
             <Image
               alt=""
               src={cable2}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -201,7 +205,7 @@ const Home = () => {
             <Image
               alt=""
               src={networkserver}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -221,7 +225,7 @@ const Home = () => {
             <Image
               alt=""
               src={piped}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -241,7 +245,7 @@ const Home = () => {
             <Image
               alt=""
               src={wiring}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -261,7 +265,7 @@ const Home = () => {
             <Image
               alt=""
               src={security}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -281,7 +285,7 @@ const Home = () => {
             <Image
               alt=""
               src={lock}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -301,7 +305,7 @@ const Home = () => {
             <Image
               alt="acorn networks banner"
               src={cctv2}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -321,7 +325,7 @@ const Home = () => {
             <Image
               alt="acorn networks banner"
               src={concept}
-              layout="fill"
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
@@ -341,17 +345,38 @@ const Home = () => {
         </div>
       </section>
       <section className="md:px-14 sm:px-8 md:py-9 p-5">
-        <div className="grid sm:grid-cols-2 grid-cols-1 gap-5 h-auto mb-3">
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-5 h-auto mb-3 rounded-md shadow-lg overflow-hidden">
           <div className="w-full sm:h-80 h-72 relative rounded-md shadow-xl">
             <Image
               alt=""
-              src={Best}
-              layout="fill"
+              src={solar}
+              fill={true}
               quality={100}
               className="h-full w-full object-cover"
             />
           </div>
-          <div>
+          <div className="p-2.5">
+            <h4 className="font-bold text-2xl mb-4">
+            Going Solar Saves You Money
+            </h4>
+            <p className="leading-loose my-3">
+            We are hoping for sustainable sources because non-renewable sources are responsible for several environmental risks.
+            Be part of the movement to further adoption of clean energy strategies. Solar energy stands ahead among most of 
+            the options as it offers a better solution in nearly every way possible.
+            </p>
+          </div>
+        </div>
+        <div className="grid sm:grid-cols-2 grid-cols-1 gap-5 h-auto mb-3 rounded-md shadow-lg overflow-hidden">
+          <div className="w-full sm:h-80 h-72 relative rounded-md shadow-xl">
+            <Image
+              alt=""
+              src={Best}
+              fill={true}
+              quality={100}
+              className="h-full w-full object-cover"
+            />
+          </div>
+          <div className="p-2.5">
             <h4 className="font-bold text-2xl mb-4">
               We Are the Best Services Partner For IT Support and CCTV Kenya!
             </h4>

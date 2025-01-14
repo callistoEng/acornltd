@@ -8,9 +8,9 @@ const Footer = () => {
         <div>
           <div>
             <h1 className="font-bold text-xl">Acorn Networks Ltd</h1>
-            <ul className="text-lg sm:block flex bg-slate-300 w-8 px-2 py-1">
+            <ul className="text-lg sm:block flex w-10">
               <li
-                className="mb-0 mt-2 text-twitter-blue"
+                className="mb-2 mt-2 w-full h-full p-2 bg-twitter-blue"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://twitter.com"
@@ -18,18 +18,18 @@ const Footer = () => {
                 <FiTwitter />
               </li>
               <li
+                className="mb-2 w-full h-full  p-2 bg-fb-color"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="https://facebook.com/ACORNETWORKS"
-                className="mb-0.5 mt-2 text-fb-color"
               >
                 <FiFacebook className="" />
               </li>
               <li
+                className="mb-2 w-full h-full  p-2  bg-gray-600"
                 target="_blank"
                 rel="noopener noreferrer"
                 href="mailto:info.acornnetwork@gmail.com?subject=Inquiry"
-                className="mb-0.5 mt-2 text-fb-color"
               >
                 
                   <AiOutlineMail className="" />
@@ -55,28 +55,28 @@ const Footer = () => {
           <h4 className="font-bold text-xl">Services</h4>
           <ul className="list-disc list-inside">
             <li className="">
-              <Link href="/">
+              <Link href="/products/integrated-security">
                 Integrated Security(CCTV, Alarm and Access Control)
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/products/video-confrencing">
                Video Confrencing
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/products/lan-structured-cabling">
                LAN Structured Cabling
               </Link>
             </li>
             <li>
-              <Link href="/">
-               Networking
+              <Link href="/products/network-cabling">
+               Networking and IP Telephone
               </Link>
             </li>
             <li>
-              <Link href="/">
-                IP Telephone
+              <Link href="/products/branding">
+                Branding
               </Link>
             </li>
             <li>
@@ -85,18 +85,23 @@ const Footer = () => {
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/products/electrical-engineering">
                 Electrical Engineering
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/products/security-systems-monitoring">
                 Security System Monitoring
               </Link>
             </li>
             <li>
-              <Link href="/">
+              <Link href="/products/lock-systems">
                 Hotel Locks Sytem
+              </Link>
+            </li>
+            <li>
+              <Link href="/">
+                Solar Installation
               </Link>
             </li>
           </ul>

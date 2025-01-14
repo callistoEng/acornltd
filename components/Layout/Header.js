@@ -1,5 +1,7 @@
 import { useState } from "react";
 import { FiFacebook } from "react-icons/fi";
+import Image from "next/image";
+import logo from "../../public/images/aLogo.jpg";
 import {
   AiOutlineTwitter,
   AiOutlineInstagram,
@@ -42,7 +44,7 @@ const Header = () => {
                   className="flex content-center items-center"
                 >
                   <BsTelephoneInbound className="mr-1.5 " />
-                  +254792922378
+                  +254106754484
                 </button>
               </li>
 
@@ -59,13 +61,14 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="xl:px-28 px-5  py-4 flex justify-between">
+      <div className="xl:px-28 px-5  py-2 flex justify-between">
         <div className="flex items-center content-center">
           <Link
-            className="md:text-4xl text-2xl  font-bold text-acorn-theme-blue"
+            className="md:text-4xl text-2xl relative overflow-hidden block w-32 h-20 font-bold text-acorn-theme-blue"
             href="/"
           >
-            Acorn Networks
+            <Image src={logo} fill={true} alt="Acorn Networks" className="w-full h-full" placeholder="blur" />
+          
           </Link>
         </div>
         <div className="sm:flex hidden items-center content-center">
