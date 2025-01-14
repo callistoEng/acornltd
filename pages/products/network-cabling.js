@@ -15,7 +15,7 @@ const NetworkCabling = () => {
       <div className="relative h-60">
         <Image
           src={cabling}
-          layout="fill"
+          fill={true}
           alt="cabling"
           quality={100}
           className="h-full w-full object-cover"
@@ -75,16 +75,7 @@ const NetworkCabling = () => {
                     className="flex content-center font-semibold text-xl items-center"
                   >
                     <BsTelephoneInbound className="mr-1.5 xs:block hidden text-acorn-theme-gold" />
-                    +254721549507
-                  </button>
-                </li>
-                <li className="mr-3 flex">
-                  <button
-                    type="button"
-                    className="flex content-center font-semibold text-xl items-center"
-                  >
-                    <BsTelephoneInbound className="mr-1.5 xs:block hidden text-acorn-theme-gold" />
-                    +254792922378
+                    +254106754484
                   </button>
                 </li>
               </ul>
